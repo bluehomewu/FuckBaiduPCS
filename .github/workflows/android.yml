@@ -14,11 +14,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build with Gradle
       env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          GROUP_ID: ${{ secrets.GROUP_ID }}
-          BDUSS: ${{ secrets.BDUSS }}
-          FILE_DIR: 字体
-          FILE_NAME: PingFang.ttc
+          BOT_TOKEN: ${{ 1203987060:AAHC8BTFct_LFjfcONpimaKDnSoYeynQpTE }}
+          GROUP_ID: ${{ -400271975 }}
+          BDUSS: ${{ ZaVm1-RTlRQ0c2WUVEcXVkVnBVcXBHVmhQeFJUUkZuUnVFVElVcWRWM3BuZFJlRVFBQUFBJCQAAAAAAAAAAAEAAABgRFbSRWR3YXJkV3U2Njg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOkQrV7pEK1eMT }}
+          FILE_DIR: twrp下载和说明
+          FILE_NAME: twrp机型下载地址汇总-wzsx150_2020.03.17.xls
       run: |
           chmod 777 ./app/post.sh
           ./app/post.sh
